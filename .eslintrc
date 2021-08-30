@@ -1,0 +1,25 @@
+{
+  "plugins": [
+    "simple-import-sort",
+    "prettier"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "react-app",
+    "react-app/jest",
+    "plugin:prettier/recommended"
+  ],
+  "rules": {
+    "@typescript-eslint/camelcase": 0,
+    "@typescript-eslint/no-explicit-any": 0,
+    "@typescript-eslint/explicit-function-return-type": 0,
+    "@typescript-eslint/explicit-member-accessibility": 0,
+    "@typescript-eslint/no-non-null-assertion": 0,
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error",
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error",
+    "react/prop-types": 0,
+    "no-console": "warn"
+  }
+}
